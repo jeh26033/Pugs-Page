@@ -7,18 +7,7 @@ body{
 	
 }
 
-header{
-	border-bottom: 10px solid maroon;
-	font-family: 'Bree Serif', serif;
-	margin:6%;
-	padding: 12px;
 
-}
- h1{
- 	font-size: 4em;
- 	font-family: 'Lobster', cursive;
- 	
- }
 .text{
 	line-height: 2;
 	font-size: 1.5em;
@@ -28,17 +17,31 @@ header{
 
 }
 .container{
-
-	width: 60%;
+	border-radius: 10px;
+	border: 6px solid maroon;
+	width: 65%;
 	background: #fcbe5a;
 }
 .row{
-	margin:0px;
-	border: 1px solid maroon;
+	padding:10px;
+	margin: 5px;
+	border-bottom: 5px solid maroon;
 	width: 100%;
 	
 }
 
+.leftsidebar{
+	margin-bottom: 5px;
+	
+	padding:15px;
+}
+
+.maintext{
+	border-left: 7px solid maroon;
+}
+
+
+/*
 .col-md-2{
 	border: 3px solid black;
 	padding:10px;
@@ -54,7 +57,9 @@ header{
 
 	border: 5px solid maroon;
 }
+*/
 
+/*nav*/
 a{
 	color: maroon;
 	font-size: 18pt;
@@ -76,6 +81,8 @@ a:hover{
 	text-decoration: none;
 
 }
+
+/* lists */
 
 ul{
 	list-style-type: none;
@@ -107,28 +114,30 @@ ul{
 	border-bottom: 2px solid maroon;
 }
 
-/* images */
-img{
-	border: 3px solid maroon;
-	padding:0px;
-}
-
-.gallery{
-	text-align: center;
-}
 
 
 
 /* headers/footers */
 
+ h1{
+ 	font-size: 4em;
+ 	font-family: 'Lobster', cursive;
+ 	
+ }
+
 header{
 	text-align: center;
-	border-top: 10px solid maroon;
+	border-bottom:10px solid maroon;
+	border-top:  10px solid maroon;
+	font-family: 'Bree Serif', serif;
+	margin:6%;
+	padding: 12px;
 
 }
 
+
 header h1{
-	font-size: 5em;
+	font-size: 6em;
 }
 
 footer{
