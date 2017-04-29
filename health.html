@@ -28,9 +28,26 @@
     <!-- Custom styles for this template -->
     <link href="assets/grid.css" rel="">
     <link href="assets/style.css" rel="stylesheet">
+	<style>
+		@media (max-width: 1000px) {
+			.container-fluid {
+			    width: 90%;
+		    }
+		    .text{
+		    	font-size: 1.2em;
+		    }
+			nav{
+				height: auto;
+				padding: 0px;
+			}
+			a{
+				font-size: 1.7em;
 
+			}
 
-    <script>
+		}
+
+   <script>
     	$(document).ready(function(){
 		$(function(){
 			$('a').hover(function(){
@@ -51,16 +68,18 @@
 
 
 <body class="img-responsive">
-	<div class="container">
+	<div class="container-fluid">
 
-		<header>
+		<header class="row">
 			<h1>The Pug</h1>
-			<h3>General Health</h3>
-			<nav>
-				<a href="index.html">Home</a>
-				<a href="stats.html">Stats and facts</a>
-				<a href="care.html">Care and Training</a>
-				<a href="health.html">General Health</a>
+			<h3>Strange but lovable</h3>
+			<nav class="col-md-12 navbar-header">
+				<ul>
+					<li class="col-md-3"><a href="index.html">Home</a></li>
+					<li class="col-md-3"><a href="stats.html">Stats and facts</a></li>
+					<li class="col-md-3"><a href="care.html">Care and Training</a></li>
+					<li class="col-md-3"><a href="health.html">General Health</a></li>
+				</ul>
 			</nav>
 		</header>
 

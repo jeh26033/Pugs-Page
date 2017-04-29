@@ -7,6 +7,16 @@ body{
 	
 }
 
+@media (max-width: 500px){
+	.container-fluid{
+		width: 100%;
+
+	}
+
+	nav{
+		height:6em;
+	}
+}
 
 .text{
 	line-height: 2;
@@ -16,17 +26,23 @@ body{
 	
 
 }
-.container{
+.container-fluid{
+	padding: 15px;
 	border-radius: 10px;
-	border: 6px solid maroon;
+	border: 8px solid maroon;
 	width: 65%;
 	background: #fcbe5a;
 }
 .row{
+	width: 95%;
+	margin: 2.5%;
+}
+.section{
+
 	padding:10px;
-	margin: 5px;
+	
 	border-bottom: 5px solid maroon;
-	width: 100%;
+	
 	
 }
 
@@ -59,23 +75,38 @@ body{
 }
 */
 
+.col-md-8{
+	border-bottom: 5px solid maroon;
+
+}
+
 /*nav*/
 a{
+	padding:2px;
 	color: maroon;
-	font-size: 18pt;
+	font-size: 1.6em;
 	font-family: 'Bree Serif', serif;
 	text-decoration: none;
 }
 
 nav{
-	padding:20px;
-	margin: 10px;
-}
-nav a{
+	height: 5em;
+	
 	padding:10px;
-
+	text-align: center;
+	
+	
 }
+nav ul a{
+
+	padding: 10px;
+	text-align: center;
+	
+
+
+} 
 a:hover{
+
 	color: white;
 	background-color: maroon;
 	text-decoration: none;
@@ -126,12 +157,13 @@ ul{
  }
 
 header{
+	
 	text-align: center;
 	border-bottom:10px solid maroon;
 	border-top:  10px solid maroon;
 	font-family: 'Bree Serif', serif;
-	margin:6%;
-	padding: 12px;
+	margin: 5%;
+	padding: 40px;
 
 }
 
